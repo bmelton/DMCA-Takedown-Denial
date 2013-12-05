@@ -1,0 +1,22 @@
+{{ complainant }}, 
+
+While I respect and appreciate your rights of copyright ownership, I have investigated and found that my forum, {{ my_site_name }} is not hosting the images you referenced.  Upon closer inspection, the images contained in the referenced thread ({{ link_complainant_provided }}) are hosted at the following locations: 
+
+{% for link in links %}
+     {{ link }}
+{% endfor %}
+
+As you can see by the referenced URLs, the hosts are {{ external_image_host_1 }} and {{ external_image_host_2 }}, respectively.  
+
+According to the United States Court Ninth Circuit Court of Appeals, embedding, or inline linking does not directly infringe copyright because no copy is made on the site providing the link, which is in this case {{ my_site_name }}.  
+
+Further research indicates that this court decision (as made in Perfect 10, Inc. vs. Google, Inc) is consistent with the majority of verdicts in DMCA copyright linking cases. 
+
+While ensuring that my sites fall within the bounds of all laws they are subject to, but also trying very hard to respect the free speech rights granted by the U.S. Constitution's first amendment, I am unable to assist in this matter unless I am legally forced to, and regrettably, in this instance it appears that {{ my_site_name }} is not legally liable for any wrongdoing.  
+
+You are not without recourse however, as you may direct your DMCA petitions to {{ external_image_host_1}} and {{ external_image_host_2 }}, where the images are actually hosted.  If you are able to get the content removed from their site, then the inline links on {{ my_site_name }} will also cease to display.  
+
+I would like to extend an apology for my reluctance to aid further, but respecting the rights and sensibilities of all parties is often a delicate balancing act.  If there is any way I can assist you in your petition to {{ external_image_host_1 }} and/or {{ external_image_host_2 }}, please do not hesitate to reach out to me.  
+
+Regards, 
+{{ your_name }}
